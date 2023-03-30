@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _strncpy - copy a string
+* _strncat - concantenate two strings
 * @dest: input value
 * @src: input value
 * @n: input value
@@ -9,18 +9,12 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int a;
+	int index = 0;
+	int dest_len = 0;
 
-	a = 0;
-	while (a < n && src[a] != '\0')
-	{
-		dest[a] = src[a];
-		a++;
-	}
-	while (a < n)
-	{
-		dest[a] = '\0';
-		a++;
-	}
-	return (dest);
+	while (dest[index++])
+		dest_len++;
+	for (index = 0; src[index] && index < n; index++)
+		dest[dest_len++] = src[index];
+			return (dest);
 }
