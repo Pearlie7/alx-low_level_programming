@@ -10,8 +10,7 @@
 */
 int main(int argc, char *argv[])
 {
-	int num1 = 0;
-	int num2 = 0;
+	int num1 = 0, num2 = 0;
 
 	if (argc == 3)
 	{
@@ -21,7 +20,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("Error\n" );
+		printf("Error\n");
 		return (1);
 	}
 	return (0);
