@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
   *is_digit - checks if a string contains a non-digit char
   *@s: stirng to be checked
@@ -32,11 +33,11 @@ int _strlen(char *s)
 	{
 		i++;
 	}
-	return (1);
+	return (i);
 }
 
 /**
-  *error - handles error for main
+  *errors - handles error for main
   */
 void errors(void)
 {
