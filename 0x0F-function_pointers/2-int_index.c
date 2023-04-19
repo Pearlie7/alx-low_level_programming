@@ -3,7 +3,7 @@
   *int_index - returns the index of the first element
   *@array: array
   *@size: number of element in the array
-  @cmp: pointer to the funtion to be used to
+  *@cmp: pointer to the funtion to be used to
   *compare values
   *Return: 1 or -1
   */
