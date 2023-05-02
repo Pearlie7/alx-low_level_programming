@@ -12,7 +12,7 @@ size_t print_listint(const listint_t *h)
 	while (cursor != NULL)
 	{
 		printf("%d\n", cursor->n);
-		nodenum++;
+		nodenum += 1;
 		cursor = cursor->next;
 	}
 
