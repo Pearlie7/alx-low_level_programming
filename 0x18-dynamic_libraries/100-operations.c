@@ -44,7 +44,7 @@ int mul(int a, int b)
 }
 
 /**
- * div - divides one number by another.
+ * divde - divides one number by another.
  * @a: First number.
  * @b: Second number.
  *
@@ -57,7 +57,7 @@ int divide(int a, int b)
 }
 
 /**
- * mod - returns the remainder when a number is divided by another.
+ * mol - returns the remainder when a number is divided by another.
  * @a: First number.
  * @b: Second number.
  *
