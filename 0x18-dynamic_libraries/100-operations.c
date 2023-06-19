@@ -1,11 +1,11 @@
-int mul(int a, int b);
 int add(int a, int b);
 int sub(int a, int b);
-int mol(int a, int b);
-int divide(int a, int b);
+int mul(int a, int b);
+int div(int a, int b);
+int mod(int a, int b);
 
 /**
- * add - adds two numbers.
+ * add - adds two different numbers.
  * @a: First number.
  * @b: Second number.
  *
@@ -18,7 +18,7 @@ int add(int a, int b)
 }
 
 /**
- * sub - subtracts a number from another.
+ * sub - subtracts one number from another.
  * @a: First number.
  * @b: Second number.
  *
@@ -44,27 +44,27 @@ int mul(int a, int b)
 }
 
 /**
- * divide - divides one number by another.
+ * div - divides one number by another.
  * @a: First number.
  * @b: Second number.
  *
  * Return: Integer result of operation.
  */
 
-int divide(int a, int b)
+int div(int a, int b)
 {
 	return (a / b);
 }
 
 /**
- * mol - returns the remainder when a number is divided by another.
+ * mod - returns the remainder when a number is divided by another.
  * @a: First number.
  * @b: Second number.
  *
  * Return: Integer result of operation.
  */
 
-int mol(int a, int b)
+int mod(int a, int b)
 {
 	return (a % b);
 }
