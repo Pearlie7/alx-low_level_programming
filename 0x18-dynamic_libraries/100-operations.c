@@ -44,7 +44,7 @@ int mul(int a, int b)
 }
 
 /**
- * divde - divides one number by another.
+ * divide - divides one number by another.
  * @a: First number.
  * @b: Second number.
  *
